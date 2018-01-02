@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    background:black;
+
+}
+div{
+    padding-left: 20px;
+    width:400px;
+    margin: auto;
+    background: lightgray;
+    color: black;
+}
+input:hover{
+    border: solid black 3px;
+}
+input{
+    width:90%;
+}
+.radio{
+    width: auto;
+}
