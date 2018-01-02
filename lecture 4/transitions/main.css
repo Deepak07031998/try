@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+
+}
+
+div{
+    background: #10e00d;
+    width: 60px;
+    border:solid red 2px;
+    font-size: 30pt;
+    margin:0 0 0 300px;
+    text-align: center;
+    transition-duration: 2s;
+}
+#d5 {
+    transform: scale(2,1);
+}
+.t:hover{
+    background: red;
+
+}
+#d9{
+    transform: translate(10pt,10pt);
+}
+#d1:hover{
+    transform: scale(-1,0);
+
+}
+#d2:hover{
+    transform: rotate(360deg);
+    background: black;
+    color: white;
+}
