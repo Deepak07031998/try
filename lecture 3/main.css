@@ -1,0 +1,16 @@
+*{
+    color:grey;
+}
+p{
+    color:white;
+    background-color: red;
+}
+.para
+{   color:white;
+    background-color: green !important;
+}
+#new{
+    color:white;
+     background-color: blue;
+}
+

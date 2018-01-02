@@ -1,0 +1,31 @@
+
+
+nav{
+    height: 400px;
+    background: grey;
+}
+header h1{
+    display: inline-block;
+    color:white;
+}
+
+nav > ul {
+    color:red;
+    margin: 0 0 0 20px;
+    padding: 0 50px 0 15px;
+    display: inline-block;
+}
+nav > ul > li{
+    display: inline-block;
+    color: white;
+    padding:10px 10px;
+    background: black;
+}
+nav ul li ul{
+    display:none;
+}
+nav ul li:hover > ul{
+    display:block;
+    background:#65f442;
+    color:white;
+}

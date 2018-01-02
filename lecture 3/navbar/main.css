@@ -1,0 +1,18 @@
+.main{
+    background: lightgray;
+    padding: 10px;
+}
+ul li {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+li li{
+    display: none;
+}
+li:hover > ul >li {
+    display: block;
+}
